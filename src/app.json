@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/index/main"
+  ],
+  "subPackages": [
+    {
+      "root": "",
+      "pages": []
+    }
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "微信",
+    "navigationBarTextStyle": "black"
+  }
+}
