@@ -1,6 +1,6 @@
 {
   "pages": [
-    "pages/index/main"
+    "pages/car-order/order-list/main","pages/car-model/car-home/main","pages/car-product/product-business/main"
   ],
   "subPackages": [
     {
@@ -11,7 +11,30 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "微信",
+    "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "white",
+    "backgroundColor": "#66CDAA",
+    "borderStyle": "white",
+    "selectedColor": "#C0FF3E",
+    "position": "bottom",
+    "list": [{
+      "pagePath": "pages/car-order/order-list/main",
+      "text": "订单",
+      "iconPath":"static/images/home1.png",
+      "selectedIconPath": "static/images/home2.png"
+    }, {
+      "pagePath": "pages/car-model/car-home/main",
+      "text": "车型",
+      "iconPath":"static/images/news1.png",
+      "selectedIconPath": "static/images/news2.png"
+    },{
+      "pagePath": "pages/car-product/product-business/main",
+      "text": "产品",
+      "iconPath":"static/images/user1.png",
+      "selectedIconPath": "static/images/user2.png"
+    }]
   }
 }

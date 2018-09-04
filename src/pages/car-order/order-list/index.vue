@@ -1,6 +1,6 @@
 <template>
     <view class="caption-wrap">
-      <text class="caption-title">折叠面板</text>
+      <text class="caption-title">订单111</text>
       <i-collapse >
         <i-collapse-item title="史蒂夫·乔布斯" name="name1">
           <view slot="content">
@@ -25,7 +25,7 @@
 <!--必须指定为ts-->
 <script lang="ts">
   import { Vue, Component } from 'vue-property-decorator'
-  import { AppUrls } from '@/utils/consts.ts'
+  import { AppUrls } from 'src/utils/consts.ts'
 
   const debug = require('debug')('log:Index')
 

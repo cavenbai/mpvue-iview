@@ -1,12 +1,12 @@
 module.exports = [
   {
-    path: 'pages/index/index',
+    path: 'pages/car-product/car-product.vue',
     config: {
       navigationBarTitleText: '主页'
     }
   }
   // {
-  //   path: 'pages/index/main',
+  //   path: 'pages/car-product/main',
   //   subPackage: true
   // }
 ]

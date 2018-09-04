@@ -37,7 +37,7 @@ Component({
     methods : {
         loop(){},
         _updateDataChange( ){
-            const indexItems = this.getRelationNodes('../index-item/index');
+            const indexItems = this.getRelationNodes('../car-product-item/car-product');
             const len = indexItems.length;
             const fixedData = this.data.fixedData;
             /*
@@ -52,7 +52,7 @@ Component({
                         timer : null
                     })
                 }
-                
+
                 this.data.timer = setTimeout(()=>{
                     const data = [];
                     indexItems.forEach((item) => {
@@ -71,13 +71,13 @@ Component({
                 this.setData({
                     timer : this.data.timer
                 })
-                
+
             }
         },
         handlerScroll(event){
             const detail = event.detail;
             const scrollTop = detail.scrollTop;
-            const indexItems = this.getRelationNodes('../index-item/index');
+            const indexItems = this.getRelationNodes('../car-product-item/car-product');
             indexItems.forEach((item,index)=>{
                 let data = item.data;
                 let offset = data.top + data.height;
@@ -90,7 +90,7 @@ Component({
             })
         },
         getCurrentItem(index){
-            const indexItems = this.getRelationNodes('../index-item/index');
+            const indexItems = this.getRelationNodes('../car-product-item/car-product');
             let result = {};
             result = indexItems[index].data;
             result.total = indexItems.length;
@@ -146,7 +146,7 @@ Component({
             })
         },
         setTouchStartVal(){
-            const className = '.i-index-fixed';
+            const className = '.i-car-product-fixed';
             const query = wx.createSelectorQuery().in(this);
             query.select( className ).boundingClientRect((res)=>{
                 this.setData({

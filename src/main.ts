@@ -35,7 +35,7 @@ if (isApp) {
   // 在这个地方引入是为了registerHooks先执行
   MyApp = require('./App.vue').default as IMpVue
 }else {
-  // MyApp = require('./index.vue')
+  // MyApp = require('./car-product.vue')
 }
 
 

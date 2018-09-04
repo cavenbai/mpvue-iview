@@ -31,9 +31,9 @@ Component({
     data : {
         //step length
         len : 1,
-        //current in step index
+        //current in step car-product
         index : 0,
-        //parent component select current index
+        //parent component select current car-product
         current : 0,
         //css direction
         direction : 'horizontal'
